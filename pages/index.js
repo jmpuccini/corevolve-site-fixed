@@ -4,16 +4,31 @@ export default function Home() {
   return (
     <div>
       {/* 🧭 Navigation */}
-      <nav style={{ position: 'sticky', top: 0, backgroundColor: '#fff', padding: '1rem', borderBottom: '1px solid #ccc', zIndex: 10 }}>
-        <ul style={{ display: 'flex', listStyle: 'none', justifyContent: 'center', gap: '2rem', margin: 0, padding: 0 }}>
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#method">Method</a></li>
-          <li><a href="#case-stories">Case Stories</a></li>
-          <li><a href="#survey">Start Now</a></li>
-        </ul>
-      </nav>
-
+      <nav style={{
+  position: 'sticky',
+  top: 0,
+  backgroundColor: 'var(--color-background)',
+  padding: '1rem 2rem',
+  boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+  zIndex: 1000
+}}>
+  <ul style={{
+    display: 'flex',
+    listStyle: 'none',
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: '2rem',
+    margin: 0,
+    padding: 0,
+    fontSize: '1rem'
+  }}>
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#method">Method</a></li>
+    <li><a href="#case-stories">Case Stories</a></li>
+    <li><a href="#survey">Start Now</a></li>
+  </ul>
+</nav>
       {/* 🏠 Hero Section */}
       <section id="hero" style={{ padding: '5rem 2rem', textAlign: 'center' }}>
         <h1>We help growing businesses keep their soul while they scale.</h1>
