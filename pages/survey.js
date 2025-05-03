@@ -16,7 +16,7 @@ export default function SurveyPage() {
       </iframe>
 
       <div style={{ marginTop: "2rem", textAlign: "center" }}>
-        <p>✅ Thank you for completing the discovery survey!</p>
+        <p>✅ Great! You just started your discovery Journey!</p>
         <a
           href="https://calendly.com/mendozasabbagh/30min"
           target="_blank"
@@ -31,7 +31,7 @@ export default function SurveyPage() {
             textDecoration: "none",
           }}
         >
-          Book a Call with Us
+          Schedule Your Discovery Call
         </a>
       </div>
     </div>
