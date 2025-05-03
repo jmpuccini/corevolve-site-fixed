@@ -41,7 +41,7 @@ export default function Home() {
       </section>
 
       {/* 🧭 About Corevolve */}
-      <section id="about" style={{ padding: '4rem 2rem', backgroundColor: '#f7f9fb' }}>
+      <section id="about" style={{ padding: '6rem 2rem', backgroundColor: '#f7f9fb' }}>
         <h2>About Corevolve</h2>
         <p>To help organizations evolve without losing their core.</p>
         <ul>
@@ -62,7 +62,7 @@ export default function Home() {
       </section>
 
       {/* ⚙️ Method + Services */}
-      <section id="method" style={{ padding: '4rem 2rem' }}>
+      <section id="method" style={{ padding: '6rem 2rem' }}>
         <h2>The Corevolve 4-Phase Approach</h2>
         <ol>
           <li><strong>Reveal:</strong> Discovery and diagnosis</li>
@@ -82,7 +82,7 @@ export default function Home() {
       </section>
 
       {/* 📚 Case Stories */}
-      <section id="case-stories" style={{ padding: '4rem 2rem', backgroundColor: '#f7f9fb' }}>
+      <section id="case-stories" style={{ padding: '6rem 2rem', backgroundColor: '#f7f9fb' }}>
         <h2>Case Stories</h2>
         <p>“They were scaling fast, but something felt off…”</p>
         <p>[Case study placeholders with quote, before/after and results]</p>
